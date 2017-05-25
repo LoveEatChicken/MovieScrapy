@@ -1,5 +1,8 @@
 #!/usr/bin/env python
 # coding: utf-8
+
+__author__ = 'Ycz'
+
 from bs4 import BeautifulSoup
 from des_base_spider import BaseSpider
 from superhero.items import CommonItem
