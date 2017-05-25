@@ -1,5 +1,8 @@
 #!/usr/bin/env python
 # coding: utf-8
+
+__author__ = 'Ycz'
+
 import scrapy
 from bs4 import BeautifulSoup
 from scrapy.http import Request
