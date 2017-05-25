@@ -1,0 +1,50 @@
+[INFO  - 2017-05-19T06:18:39.392Z] GhostDriver - Main - running on port 59260
+[INFO  - 2017-05-19T06:18:40.297Z] Session [004e6e40-3c5b-11e7-8ec7-995df5bd309e] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-05-19T06:18:40.298Z] Session [004e6e40-3c5b-11e7-8ec7-995df5bd309e] - page.customHeaders:  - {"Cookie":"CNZZDATA2724999=3cnzz_eid%3D648782242-1493886478-%26ntime%3D1493886478;UM_distinctid=15bd2d2548362b-0c32ca55b11511-396a7807-13c680-15bd2d25485c78;buvid3=A6FE0A15-A8A2-4B57-BC33-CFE7536A211F19744infoc;fts=1493890652;pgv_pvi=4486182912;pgv_si=s5642047488;"}
+[INFO  - 2017-05-19T06:18:40.298Z] Session [004e6e40-3c5b-11e7-8ec7-995df5bd309e] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"},"phantomjs.page.settings.disk-cache":true,"phantomjs.page.settings.resourceTimeout":1000,"phantomjs.page.customHeaders.Cookie":"CNZZDATA2724999=3cnzz_eid%3D648782242-1493886478-%26ntime%3D1493886478;UM_distinctid=15bd2d2548362b-0c32ca55b11511-396a7807-13c680-15bd2d25485c78;buvid3=A6FE0A15-A8A2-4B57-BC33-CFE7536A211F19744infoc;fts=1493890652;pgv_pvi=4486182912;pgv_si=s5642047488;","phantomjs.page.settings.loadImages":true}
+[INFO  - 2017-05-19T06:18:40.298Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 004e6e40-3c5b-11e7-8ec7-995df5bd309e
+[ERROR - 2017-05-19T06:18:45.838Z] Session [004e6e40-3c5b-11e7-8ec7-995df5bd309e] - page.onError - msg: TypeError: <style>[object Text]</style> is not a constructor (evaluating 'head.appendChild(script)')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-05-19T06:18:45.839Z] Session [004e6e40-3c5b-11e7-8ec7-995df5bd309e] - page.onError - stack:
+  loadJs (http://changyan.sohu.com/upload/changyan.js:67)
+  loadVersionJs (http://changyan.sohu.com/upload/changyan.js:73)
+  (anonymous function) (http://changyan.sohu.com/upload/changyan.js:77)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-05-19T06:18:53.675Z] Session [004e6e40-3c5b-11e7-8ec7-995df5bd309e] - page.onError - msg: TypeError: <style>[object Text]</style> is not a constructor (evaluating 'g.getElementsByTagName("head")[0].appendChild(c)')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-05-19T06:18:53.675Z] Session [004e6e40-3c5b-11e7-8ec7-995df5bd309e] - page.onError - stack:
+  loadScript (http://static.bshare.cn/b/buttonLite.js#uuid=70d5d539-d740-47ac-9ff3-1f395229f959&style=3&fs=3&textcolor=%23ffffff&bgcolor=%23F89C2F&bp=qqmb,bsharesync,sinaminiblog,qzone,189share,sohuminiblog,renren,xinhuamb,tianya,shouji,ifengmb,neteasemb,qqxiaoyou,kaixin001,weixin,douban,qqim&text=%E5%88%86%E4%BA%AB:4)
+  (anonymous function) (http://static.bshare.cn/b/buttonLite.js#uuid=70d5d539-d740-47ac-9ff3-1f395229f959&style=3&fs=3&textcolor=%23ffffff&bgcolor=%23F89C2F&bp=qqmb,bsharesync,sinaminiblog,qzone,189share,sohuminiblog,renren,xinhuamb,tianya,shouji,ifengmb,neteasemb,qqxiaoyou,kaixin001,weixin,douban,qqim&text=%E5%88%86%E4%BA%AB:24)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-05-19T06:19:03.613Z] Session [004e6e40-3c5b-11e7-8ec7-995df5bd309e] - page.onError - msg: TypeError: null is not an object (evaluating '/Mac OS X (10[\.\_\d]+)/.exec(b)[1]')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-05-19T06:19:03.613Z] Session [004e6e40-3c5b-11e7-8ec7-995df5bd309e] - page.onError - stack:
+  getOS (http://static.baifendian.com/api/2.0/bcore.min.js:2)
+  init (http://static.baifendian.com/api/2.0/bcore.min.js:3)
+  f (http://static.baifendian.com/api/2.0/bcore.min.js:3)
+  (anonymous function) (http://static.baifendian.com/api/2.0/bcore.min.js:3)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-05-19T06:19:03.614Z] Session [004e6e40-3c5b-11e7-8ec7-995df5bd309e] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'new $Core.inputs.PageView()')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-05-19T06:19:03.615Z] Session [004e6e40-3c5b-11e7-8ec7-995df5bd309e] - page.onError - stack:
+  detail (http://static1.baifendian.com/service/yuerwang/yuerwang.js:1)
+  b (http://static1.baifendian.com/service/yuerwang/yuerwang.js:1)
+  (anonymous function) (http://static1.baifendian.com/service/yuerwang/yuerwang.js:1)
+  (anonymous function) (http://static1.baifendian.com/service/yuerwang/yuerwang.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-05-19T06:19:03.637Z] Session [004e6e40-3c5b-11e7-8ec7-995df5bd309e] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'new BCore.exts.MouseClick2()')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-05-19T06:19:03.637Z] Session [004e6e40-3c5b-11e7-8ec7-995df5bd309e] - page.onError - stack:
+  (anonymous function) (http://static1.baifendian.com/service/yuerwang/yuerwang.js:1)
+  (anonymous function) (http://static1.baifendian.com/service/yuerwang/yuerwang.js:1)
+
+  phantomjs://platform/console++.js:263 in error
